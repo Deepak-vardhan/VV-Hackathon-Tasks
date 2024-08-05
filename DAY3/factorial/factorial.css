@@ -1,0 +1,134 @@
+body{
+    display: flex;
+ justify-content: center;
+ align-items: center;
+flex-direction: column;
+padding: 20vh;
+background-color: #282c34;
+}
+@keyframes glowgreen {
+    0% {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 50px #00ff00, 0 0 60px #00ff00, 0 0 70px #00ff00;
+    }
+    50% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 50px #00ff00, 0 0 60px #00ff00, 0 0 70px #00ff00, 0 0 80px #00ff00;
+    }
+    100% {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 50px #00ff00, 0 0 60px #00ff00, 0 0 70px #00ff00;
+    }}
+@keyframes glowyellow {
+    0% {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ffe600, 0 0 30px #ffe600, 0 0 40px #ffe600, 0 0 50px #ffe600, 0 0 60px #ffe600, 0 0 70px #ffe600;
+    }
+    50% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #ffe600, 0 0 30px #ffe600, 0 0 40px #ffe600, 0 0 50px #ffe600, 0 0 60px #ffe600, 0 0 70px #ffe600, 0 0 80px #ffe600;
+    }
+    100% {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ffe600, 0 0 30px #ffe600, 0 0 40px #ffe600, 0 0 50px #ffe600, 0 0 60px #ffe600, 0 0 70px #ffe600;
+    }}
+@keyframes glowblue {
+        0% {
+            text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0400ff, 0 0 30px #0400ff, 0 0 40px #0400ff, 0 0 50px #0400ff, 0 0 60px #0400ff, 0 0 70px #0400ff;
+        }
+        50% {
+            text-shadow: 0 0 10px #fff, 0 0 20px #0400ff, 0 0 30px #0400ff, 0 0 40px #0400ff, 0 0 50px #0400ff, 0 0 60px #0400ff, 0 0 70px #0400ff, 0 0 80px #0400ff;
+        }
+        100% {
+            text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0400ff, 0 0 30px #0400ff, 0 0 40px #0400ff, 0 0 50px #0400ff, 0 0 60px #0400ff, 0 0 70px #0400ff;
+        }}
+@keyframes glowboxred {
+            0% {
+                box-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 15px #ff0000, 0 0 20px #ff0000;
+            }
+            50% {
+                box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000;
+            }
+            100% {
+                box-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 15px #ff0000, 0 0 20px #ff0000;
+            }} 
+@keyframes glowboxyellow {
+                0% {
+                    box-shadow: 0 0 5px #ffe600, 0 0 10px #ffe600, 0 0 15px #ffe600, 0 0 20px #ffe600;
+                }
+                50% {
+                    box-shadow: 0 0 10px #ffe600, 0 0 20px #ffe600, 0 0 30px #ffe600, 0 0 40px #ffe600;
+                }
+                100% {
+                    box-shadow: 0 0 5px #ffe600, 0 0 10px #ffe600, 0 0 15px #ffe600, 0 0 20px #ffe600;
+                }}
+@keyframes glowred{
+                    0% {
+                        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #f80223, 0 0 30px #f80223, 0 0 40px #f80223, 0 0 50px #f80223, 0 0 60px #f80223, 0 0 70px #f80223;
+                    }
+                    50% {
+                        text-shadow: 0 0 10px #fff, 0 0 20px #f80223, 0 0 30px #f80223, 0 0 40px #f80223, 0 0 50px #f80223, 0 0 60px #f80223, 0 0 70px #f80223, 0 0 80px #f80223;
+                    }
+                    100% {
+                        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #f80223, 0 0 30px #f80223, 0 0 40px #f80223, 0 0 50px #f80223, 0 0 60px #f80223, 0 0 70px #f80223;
+                    }}
+
+h2{
+    color:rgb(70, 7, 7)
+}
+.headingdiv{
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    bottom: 75px;
+    
+}
+#heading{
+    color: #fff;
+    animation: glowblue 100s infinite;
+    margin-bottom: 50px;
+    font-size: 37px;
+}
+.number{
+    background-color:grey;
+   text-align: center;
+   font-size: 16px;
+   justify-content: center;
+   border: 1px solid transparent;
+   box-sizing: border-box;
+   border-radius: 15px;
+   box-shadow: 0 0 60px rgb(167, 167, 167);
+   padding: 10vh;
+   width: 60vh;
+   border: 2px solid transparent;
+   border-radius: 10px;
+   color: #fff;
+   animation: glowboxred 1.5s infinite;
+   position: relative;
+    bottom: 75px;
+}
+.number input{
+    border-radius: 5px;
+}
+#numberchecker{
+   padding: 20px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 25px;
+    
+}
+#numberchecker button:hover{
+    background-color: green;
+}
+
+#text{
+    font-size:30px;
+    color: #fff;
+    animation: glowyellow 100s infinite;
+}
+#Num{
+    font-size: 15px;
+    font-weight: bold;
+    width: 100px;
+    height: 50px;
+
+}
