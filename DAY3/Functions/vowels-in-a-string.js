@@ -11,6 +11,7 @@ let bigvowels=vowels.toUpperCase();
   return count;
   
  }
-let string="aeiou"
+ //replace deepak with you string
+let string="deepak"
 
 console.log(countvowels(string));
