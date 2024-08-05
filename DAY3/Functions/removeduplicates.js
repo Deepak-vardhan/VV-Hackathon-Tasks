@@ -1,4 +1,6 @@
-let array = [1, 2, 1, 4, 5];
+let arr = [1,2,1,4,6,2,5,5,2];
+
+function removeduplicates(array){
 let newarray = [];
 // console.log(newarray[0]); 
 
@@ -19,5 +21,7 @@ for (let i = 0; i < array.length; i++) {
         count++; 
     }
 }
+return newarray
+}
 
-console.log(newarray);
+console.log(removeduplicates(arr));

@@ -31,5 +31,4 @@ para.style.animation="glowred 1.5s infinite";
 else if(str===""){
     para.innerHTML=`Enter a proper string`
 }
-
 })
