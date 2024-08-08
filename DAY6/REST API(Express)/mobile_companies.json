@@ -1,0 +1,146 @@
+{
+  "mobile_companies": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "country": "USA",
+      "founded": 1976,
+      "popular_models": ["iPhone 13", "iPhone 12", "iPhone SE"]
+    },
+    {
+      "id": 2,
+      "name": "Samsung",
+      "country": "South Korea",
+      "founded": 1938,
+      "popular_models": ["Galaxy S21", "Galaxy Note 20", "Galaxy A52"]
+    },
+    {
+      "id": 3,
+      "name": "Huawei",
+      "country": "China",
+      "founded": 1987,
+      "popular_models": ["P40 Pro", "Mate 40 Pro", "Nova 7"]
+    },
+    {
+      "id": 4,
+      "name": "Xiaomi",
+      "country": "China",
+      "founded": 2010,
+      "popular_models": ["Mi 11", "Redmi Note 10", "Poco X3"]
+    },
+    {
+      "id": 5,
+      "name": "Oppo",
+      "country": "China",
+      "founded": 2004,
+      "popular_models": ["Find X3 Pro", "Reno 6", "A74"]
+    },
+    {
+      "id": 6,
+      "name": "Vivo",
+      "country": "China",
+      "founded": 2009,
+      "popular_models": ["X60 Pro", "V21", "Y20"]
+    },
+    {
+      "id": 7,
+      "name": "OnePlus",
+      "country": "China",
+      "founded": 2013,
+      "popular_models": ["OnePlus 9", "OnePlus 8T", "OnePlus Nord"]
+    },
+    {
+      "id": 8,
+      "name": "Google",
+      "country": "USA",
+      "founded": 2015,
+      "popular_models": ["Pixel 5", "Pixel 4a", "Pixel 3"]
+    },
+    {
+      "id": 9,
+      "name": "Sony",
+      "country": "Japan",
+      "founded": 1946,
+      "popular_models": ["Xperia 1 II", "Xperia 5 II", "Xperia 10 II"]
+    },
+    {
+      "id": 10,
+      "name": "LG",
+      "country": "South Korea",
+      "founded": 1947,
+      "popular_models": ["Wing", "Velvet", "G8 ThinQ"]
+    }
+  ],
+  "laptop_companies": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "country": "USA",
+      "founded": 1976,
+      "popular_models": ["MacBook Air", "MacBook Pro"]
+    },
+    {
+      "id": 2,
+      "name": "Dell",
+      "country": "USA",
+      "founded": 1984,
+      "popular_models": ["XPS 13", "XPS 15", "Inspiron"]
+    },
+    {
+      "id": 3,
+      "name": "HP",
+      "country": "USA",
+      "founded": 1939,
+      "popular_models": ["Spectre x360", "Envy", "Pavilion"]
+    },
+    {
+      "id": 4,
+      "name": "Lenovo",
+      "country": "China",
+      "founded": 1984,
+      "popular_models": ["ThinkPad", "Yoga", "Legion"]
+    },
+    {
+      "id": 5,
+      "name": "Asus",
+      "country": "Taiwan",
+      "founded": 1989,
+      "popular_models": ["ZenBook", "ROG", "VivoBook"]
+    },
+    {
+      "id": 6,
+      "name": "Acer",
+      "country": "Taiwan",
+      "founded": 1976,
+      "popular_models": ["Swift", "Aspire", "Predator"]
+    },
+    {
+      "id": 7,
+      "name": "Microsoft",
+      "country": "USA",
+      "founded": 1975,
+      "popular_models": ["Surface Laptop", "Surface Book", "Surface Pro"]
+    },
+    {
+      "id": 8,
+      "name": "Samsung",
+      "country": "South Korea",
+      "founded": 1938,
+      "popular_models": ["Galaxy Book", "Notebook 9"]
+    },
+    {
+      "id": 9,
+      "name": "Razer",
+      "country": "USA",
+      "founded": 2005,
+      "popular_models": ["Blade 15", "Blade Stealth"]
+    },
+    {
+      "id": 10,
+      "name": "MSI",
+      "country": "Taiwan",
+      "founded": 1986,
+      "popular_models": ["GS65 Stealth", "GE75 Raider", "Prestige 14"]
+    }
+  ]
+}
